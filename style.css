@@ -1,0 +1,75 @@
+/* Style Guide
+
+Font: roboto
+
+Hero Section:
+background-color - #1F2937
+primary text - 48px extra-bold #F9FAF8
+secondary text - 18px #E5E7EB
+
+Header Section: 
+logo text - 2px #F9FAF8
+
+Button - #3882F6
+information - 36px extra-bold #1F2937
+
+Quote Section:
+background-color - #E5E7EB
+text - 36px light italic #1F2937
+
+Footer:
+background-color - #1F2937
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+#section--2 {
+  background-color: #e5e7eb;
+}
+
+footer {
+  background-color: #1f2937;
+}
