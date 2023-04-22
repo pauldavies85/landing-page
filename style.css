@@ -24,7 +24,7 @@ background-color - #1F2937
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -40,21 +40,14 @@ p {
   color: #e5e7eb;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
 }
 
 header {
   background-color: #1f2937;
-}
-
-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
@@ -64,6 +57,7 @@ header {
   cursor: pointer;
   font-size: 24px;
   color: #f9faf8;
+  margin-left: auto;
 }
 
 .nav__links {
@@ -73,10 +67,14 @@ header {
 .nav__links li {
   display: inline-block;
   padding: 0px 20px;
+  margin-right: auto;
 }
 
 .nav__links li a {
+  font-size: 18px;
+  color: #e5e7eb;
   transition: all 0.3s ease 0s;
+  text-decoration: none;
 }
 
 #section--2 {
