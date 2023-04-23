@@ -236,3 +236,27 @@ strong {
 }
 
 /* Testimonial Section */
+.section-testimonial {
+  padding: 9.6rem 0;
+  background-color: #e5e7eb;
+}
+
+.testimonial {
+  margin: auto;
+  width: 62rem;
+}
+
+.testimonial-text {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+  color: #1f2937;
+  font-style: italic;
+  text-align: left;
+}
+
+.testimonial-name {
+  font-size: 1.8rem;
+  color: #1f2937;
+  text-align: right;
+}
