@@ -205,7 +205,13 @@ strong {
 
 /* Features Section */
 .section-features {
-  padding: 4.8rem 0 3.2rem 0;
+  padding: 9.6rem 0;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feature-image {
@@ -214,3 +220,19 @@ strong {
   margin-bottom: 1.2rem;
   border: 3px solid #3882f6;
 }
+
+.feature-content {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+/* Testimonial Section */
