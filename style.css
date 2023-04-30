@@ -303,3 +303,15 @@ strong {
   background-color: #f9faf8;
   color: #3882f6;
 }
+
+/* Footer */
+.footer {
+  padding: 2.4rem 0;
+  background-color: #1f2937;
+}
+
+.footer p {
+  color: #f9faf8;
+  text-align: center;
+  font-size: 1.4rem;
+}
